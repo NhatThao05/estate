@@ -1,6 +1,4 @@
 import { Box, Typography, Grid, Paper, Link, Button, CardActions, IconButton, Divider} from "@mui/material";
-// import LeftNew from './LeftNew';
-// import RightNew from './RightNew';
 import { styled } from '@mui/material/styles';
 import NewUpdate from "./NewUpdate";
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
