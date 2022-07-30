@@ -181,7 +181,7 @@ export default function PrimarySearchAppBar() {
         >
           <MoreVertIcon />
         </IconButton>
-        <p>Contact US</p>
+        <Link underline="hover" color="inherit" href="#">Contact US</Link>
       </MenuItem>
     </Menu>
   );
@@ -194,7 +194,7 @@ export default function PrimarySearchAppBar() {
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: 'none', sm: 'block' }, fontWeight: 'bolder' }}
+            sx={{ display: { xs: 'none', sm: 'block' }, mr: 2 }}
           >
             CITY LAND
           </Typography>
@@ -210,24 +210,15 @@ export default function PrimarySearchAppBar() {
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>   
             <MyList type="row">
-              <Link underline="hover" color="inherit" href="#" sx={{marginRight: 2}}>Home</Link>
-              <Link underline="hover" color="inherit" href="#" sx={{marginRight: 2}}>Introduction</Link>
-              <Link underline="hover" color="inherit" href="#" sx={{marginRight: 2}}>Projects</Link>
-              <Link underline="hover" color="inherit" href="#" sx={{marginRight: 2}}>Investor relations</Link>
-              <Link underline="hover" color="inherit" href="#" sx={{marginRight: 2}}>News</Link>
-              <Link underline="hover" color="inherit" href="#" sx={{marginRight: 2}}>Subtainability</Link>
-              <Link underline="hover" color="inherit" href="#" sx={{marginRight: 2}}>Careers</Link>
+              <Link underline="hover" color="inherit" href="#" sx={{mr: 2}}>Home</Link>
+              <Link underline="hover" color="inherit" href="#" sx={{mr: 2}}>Introduction</Link>
+              <Link underline="hover" color="inherit" href="#" sx={{mr: 2}}>Projects</Link>
+              <Link underline="hover" color="inherit" href="#" sx={{mr: 2}}>Investor relations</Link>
+              <Link underline="hover" color="inherit" href="#" sx={{mr: 2}}>News</Link>
+              <Link underline="hover" color="inherit" href="#" sx={{mr: 2}}>Subtainability</Link>
+              <Link underline="hover" color="inherit" href="#" sx={{mr: 2}}>Careers</Link>
               <Link underline="hover" color="inherit" href="#">Contact US</Link>
             </MyList>    
-            {/* <IconButton
-              size="large"
-              edge="end"
-              color="inherit"
-              aria-label="open drawer"
-              sx={{ mr: 2 }}
-            >
-             <MenuIcon />
-            </IconButton> */}
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton
