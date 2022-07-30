@@ -20,20 +20,20 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 const images = [
   {
     label: 'Core Value Efficiency - Integrity - Professionalism',
-    imgPath: 'https://www.novaland.com.vn/Data/Sites/1/media/du-an/du-an-tieu-bieu-2021/2022/gma2022-duantieubieu-1600x1111.jpg',
+    imgPath: 'https://images.pexels.com/photos/6128380/pexels-photo-6128380.jpeg?auto=compress&cs=tinysrgb&w=1600',
   },
   {
     label: 'The Leading Real Estate developer in Vietnam',
-    imgPath: 'https://congtycityland.com.vn/wp-content/uploads/2018/05/can-h%E1%BB%99-cityland.jpg',
+    imgPath: 'https://images.pexels.com/photos/2132603/pexels-photo-2132603.jpeg?auto=compress&cs=tinysrgb&w=1600',
 
   },
   {
     label: 'Mission Developing community & Building happiness',
-    imgPath: 'https://www.novaland.com.vn/Data/Sites/1/media/du-an/du-an-tieu-bieu-2021/nologo-centara.jpg',
+    imgPath: 'https://images.pexels.com/photos/261204/pexels-photo-261204.jpeg?auto=compress&cs=tinysrgb&w=1600',
   },
   {
     label: 'Hospital, Industrial, Residental estate',
-    imgPath: 'https://www.novaland.com.vn/Data/Sites/1/media/du-an/du-an-tieu-bieu-2021/beach.jpg',
+    imgPath: 'https://images.pexels.com/photos/1488515/pexels-photo-1488515.jpeg?auto=compress&cs=tinysrgb&w=1600',
   },
 ];
 
