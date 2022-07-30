@@ -15,6 +15,13 @@ const useStyles = makeStyles((theme) => ({
    },
    background: "#BBDEFB",
  },
+ underline: {
+  height: "0.3rem",
+  width: "25rem",
+  background: "#38b000",
+  marginLeft: "auto",
+  marginRight: "auto",
+ }
 }));
 const Item = styled(Paper)(({ theme }) => ({
  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -29,7 +36,8 @@ export default function News() {
  return (
   <>
    <Box sx={{ padding: 6, flexGrow: 1}} className={classes.container}>
-    <Typography variant="h2" color="primary" sx={{textAlign: 'center', textDecoration: 'underline'}}>New Information</Typography>
+    <Typography variant="h2" color="primary" sx={{textAlign: 'center'}}>New Information</Typography>
+    <div className={classes.underline}></div>
     <Grid container spacing={4} sx={{marginTop: 2}}>
      {/* left side */}
      <Grid item xs={8}>

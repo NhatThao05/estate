@@ -1,6 +1,7 @@
 import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
+import Projects from "./components/Project";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Banner />
       <News />
+      <Projects />
     </> 
   );
 }
